@@ -8,4 +8,4 @@ print(name.find("s")) # first position = index 0
 # capitalize method - uppercase for the first letter of each word
 print(name.capitalize())
 
-# upper method
+# upper method - uppercase for all letters
