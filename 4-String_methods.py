@@ -26,4 +26,6 @@ print(name.count("o"))
 # replace()
 print(name.replace("o","i"))
 
-# 
+# display my name 3 times
+print(name*3)
+
