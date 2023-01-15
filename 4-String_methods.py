@@ -1,11 +1,23 @@
 # Length method
-name = "fastoch"
+name = "fastOch"
 print(len(name))
 
 # find method - returns the index (position) of a character within a string
 print(name.find("s")) # first position = index 0
 
-# capitalize method - uppercase for the first letter of each word
+# capitalize method - first letter is uppercase
 print(name.capitalize())
 
-# upper method - uppercase for all letters
+# upper method - all letters are uppercase
+print(name.upper())
+
+# lower method
+print(name.lower())
+
+# isdigit()
+print(name.isdigit())
+
+# isalpha() - does my string contain only alphabetical letters?
+print(name.isalpha())
+
+# 
