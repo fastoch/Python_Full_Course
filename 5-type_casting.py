@@ -3,6 +3,8 @@ x = 1   #int
 y = 2.0 #float
 z = "3" #str
 
-print(x)
-print(int(y))
-print(z)
+print(float(x)) # returns 1.0
+print(int(y)) # returns 2
+print(z*3) # returns 333
+print(int(z)*3) # returns 9
+print("x+y="+str(x+int(y)))
