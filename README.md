@@ -1,2 +1,2 @@
 Python Full Course - https://www.youtube.com/watch?v=XKHEtdqhLK8  
-@55:00/12:00:00
+@58:20/12:00:00
