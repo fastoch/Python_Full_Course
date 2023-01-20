@@ -4,6 +4,7 @@
 # continue =    skips to the next iteration of the loop
 # pass =        does nothing, acts as a placeholder
 
+# this program keeps asking for your name until you enter something
 while True:
     name = input("What's your name? ")
     if name != "":
@@ -16,3 +17,11 @@ for i in phone_number:
         continue
     print(i, end="")
 
+print() # line break
+
+# display integers from 1 to 20, except for 13
+for i in range(1,21):
+    if i == 13:
+        pass
+    else: 
+        print(i)
