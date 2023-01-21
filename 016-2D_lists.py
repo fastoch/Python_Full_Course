@@ -6,4 +6,6 @@ dessert=["cake","ice cream"]
 
 food=[drinks,dinner,dessert]
 
-print(food)
+print("Here's my 2D list:\n"+str(food))
+print("Here's the first list of my 2D list:\n"+str(food[0]))
+print("Here's the third item of the second list:\n"+food[1][2])
