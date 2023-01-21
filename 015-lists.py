@@ -30,3 +30,10 @@ print(food)
 food.insert(1,"shrimps")
 print(food)
 
+# sort list items alphabetically
+food.sort()
+print(food)
+
+# clear list
+food.clear()
+print(food)
