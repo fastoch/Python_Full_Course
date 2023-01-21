@@ -10,6 +10,7 @@ capitals = {'USA':'Washington',
 # add an entry to the dictionary or update an existing one
 capitals.update({'Germany':'Berlin'})
 capitals.update({'USA':'Los Angeles'})
+capitals.update({'England':'London'})
 
 print(capitals['Russia']) # returns 'Moscow'
 # print(capitals['Germany']) --> returns a KeyError and stops the program
