@@ -28,7 +28,13 @@ print(capitals.values())
 # print both keys and values
 print(capitals.items())
 
+# remove Germany key
+capitals.pop('Germany')
+
 # another way to print both keys and values
 for key,value in capitals.items():
     print(key,value)
 
+# clear the entire dictionary
+capitals.clear()
+print(capitals.items())
