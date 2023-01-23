@@ -8,5 +8,12 @@ def display_name():
     name = "Code" # local scope (available only inside this function)
     print(name)
 
-# will print the global version of the variable
+# will print "fastoch"
 print(name)
+
+# will print "Code" 
+display_name()
+
+# a program will first try to use the local version of a variable
+# if no local version is found, it will look for a global version
+# This is known as the "LEGB" rule = Local Enclosing Global Built-in
