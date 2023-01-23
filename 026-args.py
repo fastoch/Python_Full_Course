@@ -18,7 +18,7 @@ def add2(*args):
 print(add2(1,2,3))
 print(add2(1,2,3,4,5))
 
-# args is an arbitrary name, we could use any other word
+# args is an arbitrary name (a common convention), we could use any other word
 def add3(*stuff):
     sum = 0
     for i in stuff:
