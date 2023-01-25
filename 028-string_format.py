@@ -43,4 +43,10 @@ print("With padding + centered:\n Hello, my name is {:^16}. Nice to meet you!".f
 
 # How to format numbers?
 number = 3.14159
-print("The number pi is {}".format(number))
+print("The number pi, rounded to the thousandth, is {:.3f}".format(number)) # f is for floating point number (float type)
+num = 1000
+print("The number 1000 with a comma: {:,}".format(num)) 
+print("The number 1000 in binary is {:b}".format(num)) 
+print("The number 1000 in octal is {:o}".format(num)) 
+print("The number 1000 in hexadecimal is {:X}".format(num)) 
+print("The number 1000 in scientific notation is {:E}".format(num)) 
