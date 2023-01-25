@@ -3,7 +3,7 @@
 animal="cow"
 item="moon"
 
-print("The usual way:")
+print("Without the format method:")
 print("The "+animal+" jumped over the "+item)
 print()
 
@@ -31,4 +31,11 @@ print()
 
 # another way of doing this
 text = "The {} jumped over the {}."
-print()
+print(text.format(animal,item))
+
+# How to add some padding to a string
+name = "fastoch"
+print("Without padding:\n Hello, my name is {}. Nice to meet you!".format(name))
+print("With padding + left aligned:\n Hello, my name is {:10}. Nice to meet you!".format(name))
+print("With padding + right aligned:\n Hello, my name is {:>10}. Nice to meet you!".format(name))
+print("With padding + centered:\n Hello, my name is {:^10}. Nice to meet you!".format(name))
