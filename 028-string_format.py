@@ -29,13 +29,18 @@ print("The {animal} jumped over the {animal}.".format(animal="cow",item="moon"))
 print()
 # we no longer need to declare our two variables at the beginning
 
-# another way of doing this
+# How to add some padding to a string
 text = "The {} jumped over the {}."
 print(text.format(animal,item))
 
 # How to add some padding to a string
 name = "fastoch"
 print("Without padding:\n Hello, my name is {}. Nice to meet you!".format(name))
-print("With padding + left aligned:\n Hello, my name is {:10}. Nice to meet you!".format(name))
-print("With padding + right aligned:\n Hello, my name is {:>10}. Nice to meet you!".format(name))
-print("With padding + centered:\n Hello, my name is {:^10}. Nice to meet you!".format(name))
+print("With padding + left aligned:\n Hello, my name is {:16}. Nice to meet you!".format(name))
+print("With padding + right aligned:\n Hello, my name is {:>16}. Nice to meet you!".format(name))
+print("With padding + centered:\n Hello, my name is {:^16}. Nice to meet you!".format(name))
+# we still can add a positional|keyword argument to the format field by preceeding the colon with our argument
+
+# How to format numbers?
+number = 3.14159
+print("The number pi is {}".format(number))
